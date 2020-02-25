@@ -10,3 +10,7 @@ gem "awesome_print", git: "git@github.com:awesome-print/awesome_print.git" #this
 group :development do
   gem "pry"
 end
+
+group "test" do
+  gem "RSpec"
+end
